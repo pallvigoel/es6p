@@ -12,21 +12,12 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/main.js"></script>
 </head>
-<script>
-    $(document).ready(function () {
-        $("#details").click(function () {
-            $("#myTable").animate({ bottom: '250px' });
-        });
-
-    });
-</script>
 
 <body>
     <div class="container-fluid">
-    <p id="demo"></p>
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="navbar-header">
-            <span class="navbar-brand" onclick="show()">Registor</span>
+            <span class="navbar-brand" onclick="myFunction()">Registor</span>
 
         </div>
         <div class="navbar-header">
@@ -104,9 +95,9 @@
             </div>
             <br>
             <br>
-            <div  >
+            <div>
 
-                <table  id="myTable" class="table table-stripped">
+                <table  class="table table-stripped" id="myTable">
                     <tr>
                         <th>
                             <input type="checkbox" onclick="deleteall()" id="del">
@@ -121,7 +112,7 @@
 
             </div>
 
-        </div>
+        
 
         <br>
 

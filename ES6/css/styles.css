@@ -1,0 +1,117 @@
+
+table, td,th {
+    border: 2px solid rgb(21, 22, 18)   ;
+    background-color: rgb(133, 209, 236);
+}
+th{
+
+    max-width:100px; 
+font-color: rgb(142, 197, 31);
+font-family: Arial; font-size: 10pt;
+}
+
+td,tr{
+
+    word-wrap: break-word;
+}
+body
+{
+	height:100%;
+    background:#BFE0E1  ;
+}
+#stream {
+width:150px;
+height:33px;
+border-radius: 3px;
+
+}
+#passoutyear {
+width:150px;
+height:33px;
+border-radius: 3px;
+}
+button{
+
+    width:120px;
+    
+}
+.buttons
+{
+    padding:10px;
+    text-align:center;
+    
+}
+#button:hover
+{
+background-color: skyblue;
+color:white;
+}
+.navbar-brand{
+text-align: center;
+}
+
+header{
+	height:50px;
+}
+.footer {
+    background-image: linear-gradient(to right, #FAFFFF 0, #B83D6E 100%);
+    padding: 10px 0;
+	 position:relative;
+  bottom: 0;
+	margin-right:0;
+	width:100%;
+	background-color: red;
+}
+.footer {
+    background:#D5C4D5;
+    padding: 10px 0;
+	 position:fixed;
+    bottom:0;
+	margin-right:0;
+	width:100%;
+}
+
+.footer a {
+    
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+#details {
+    
+    text-align: center;
+
+
+}
+#f{
+    padding:50px;
+}
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.follow
+{
+	text-align:center;
+	
+	color:black;
+}
+
+#myTable{
+    text-align:center;
+
+    background-color:#D5DACE;
+    padding:10px;
+    cellspacing:10px;
+    }
+    body
+    {
+        overflow-x:hidden;
+    }
